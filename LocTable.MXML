@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Data template="cTkLocalisationTable">
     <Property name="Table">
+        <!-- Source: nms_loc1_*.MXML -->
+        <Property name="Table" value="TkLocalisationEntry" _id="NOTIFY_REPAIR_GETIN">
+			<Property name="Id" value="NOTIFY_REPAIR_GETIN" />
+			<Property name="TraditionalChinese" value="&lt;TITLE&gt;離開行星&lt;&gt;
+找回你墜毀的太空船
+按住 &lt;IMG&gt;INTERACT&lt;&gt; 開始互動" />
+		</Property>
+        <Property name="Table" value="TkLocalisationEntry" _id="INTRCT_SAVE">
+			<Property name="Id" value="INTRCT_SAVE" />
+			<Property name="TraditionalChinese" value="已儲存還原點" />
+		</Property>
+
+        <!-- Source: nms_loc4_*.MXML -->
+        <Property name="Table" value="TkLocalisationEntry" _id="UI_CUSTOM_MARKER_TIP">
+			<Property name="Id" value="UI_CUSTOM_MARKER_TIP" />
+			<Property name="TraditionalChinese" value="按下 &lt;IMG&gt;CUSTOMMARK&lt;&gt; 放置標記" />
+		</Property>
+        <Property name="Table" value="TkLocalisationEntry" _id="UI_EMOTE_CHAT_WARP_IN">
+			<Property name="Id" value="UI_EMOTE_CHAT_WARP_IN" />
+			<Property name="TraditionalChinese" value="%NAME%已進入星系" />
+		</Property>
+
         <!-- Source: nms_loc5_*.MXML -->
+        <Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_TAGMARKER">
+			<Property name="Id" value="CTRL_BTN_TAGMARKER" />
+			<Property name="TraditionalChinese" value="標註標記" />
+		</Property>
         <Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_PLACEMARKER">
 			<Property name="Id" value="CTRL_BTN_PLACEMARKER" />
 			<Property name="TraditionalChinese" value="放置標記" />
@@ -51,7 +77,15 @@
             <Property name="TraditionalChinese" value="可用欄位不足，無法匯入存檔資料。&#xA;請刪除 %NUM% 個現有存檔後再試一次。" />
         </Property>
 
-        <!-- Source: nms_update3_usenglish.MXML -->
+        <!-- Source: nms_update3_*.MXML -->
+        <Property name="Table" value="TkLocalisationEntry" _id="UI_RELOAD_MANUAL">
+			<Property name="Id" value="UI_RELOAD_MANUAL" />
+			<Property name="TraditionalChinese" value="重新載入還原點 [%TIMESTAMP%]" />
+		</Property>
+        <Property name="Table" value="TkLocalisationEntry" _id="UI_MANUAL_NO_DATA">
+			<Property name="Id" value="UI_MANUAL_NO_DATA" />
+			<Property name="TraditionalChinese" value="上個還原點：無資料" />
+		</Property>
         <Property name="Table" value="TkLocalisationEntry" _id="UI_PLACEMARKER_NAME_L">
 			<Property name="Id" value="UI_PLACEMARKER_NAME_L" />
 			<Property name="TraditionalChinese" value="已部署導航標記" />
